@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "F:\\spring_boot\\animationDrawable\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\logo3.bmp",
+        "source": "F:\\spring_boot\\animationDrawable\\app\\src\\main\\res\\drawable\\logo3.bmp"
+    },
+    {
+        "merged": "F:\\spring_boot\\animationDrawable\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\logo.xml",
+        "source": "F:\\spring_boot\\animationDrawable\\app\\src\\main\\res\\drawable\\logo.xml"
+    },
+    {
+        "merged": "F:\\spring_boot\\animationDrawable\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\logo1.bmp",
+        "source": "F:\\spring_boot\\animationDrawable\\app\\src\\main\\res\\drawable\\logo1.bmp"
+    },
+    {
+        "merged": "F:\\spring_boot\\animationDrawable\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\logo2.bmp",
+        "source": "F:\\spring_boot\\animationDrawable\\app\\src\\main\\res\\drawable\\logo2.bmp"
+    }
+]
