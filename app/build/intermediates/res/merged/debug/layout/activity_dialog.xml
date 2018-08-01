@@ -13,13 +13,8 @@
            android:id="@+id/world"
            android:layout_height="wrap_content"
            android:layout_width="wrap_content"
-           android:text="this is second activity"
+           android:text="this is dialog activity"
            android:layout_centerInParent="true"/>
-        <TextView
-            android:id="@+id/start"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="start_myself"
-            />
+
 
 </RelativeLayout>

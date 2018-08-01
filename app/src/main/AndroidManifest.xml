@@ -21,12 +21,16 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".SecondeActivity">
+        <activity android:name=".SecondeActivity"
+                  android:launchMode="singleTop">
+            <!-- 隐形意图跳转 -->
             <intent-filter>
                 <action android:name="com.itheima.drawable.ACTION_START" />
                 <category android:name="android.intent.category.DEFAULT" />
                 <category android:name="com.itheima.drawable.MY_CATEGORY" />
             </intent-filter>
         </activity>
+        <activity android:name=".DialogActivity"
+            android:theme="@android:style/Theme.Dialog"></activity>
     </application>
 </manifest>
