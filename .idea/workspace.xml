@@ -6,14 +6,15 @@
     </shared>
   </component>
   <component name="AndroidLogFilters">
-    <option name="TOOL_WINDOW_CUSTOM_FILTER" value="SecondeActivity" />
-    <option name="TOOL_WINDOW_LOG_LEVEL" value="info" />
+    <option name="TOOL_WINDOW_LOG_LEVEL" value="error" />
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="No Filters" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ece6e5b1-fe45-48ab-8564-46237984b851" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/itheima/drawable/DialogActivity.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_dialog.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/itheima/drawable/GetImgsActivity.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/itheima/drawable/ThirdActivity.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_get_img.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_third.xml" />
       <change beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/cache.properties.lock" />
       <change beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileHashes.bin" />
       <change beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileSnapshots.bin" />
@@ -22,17 +23,19 @@
       <change beforePath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_app_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_app_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.bin" />
       <change beforePath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_app_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" afterPath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_app_compileDebugJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" />
       <change beforePath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_app_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" afterPath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_app_compileDebugJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/app/build/generated/source/r/debug/com/itheima/drawable/R.java" afterPath="$PROJECT_DIR$/app/build/generated/source/r/debug/com/itheima/drawable/R.java" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/layout.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/layout.json" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/itheima/drawable/MainActivity$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/itheima/drawable/MainActivity$1.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/itheima/drawable/MainActivity$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/itheima/drawable/MainActivity$2.class" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/itheima/drawable/MainActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/itheima/drawable/MainActivity.class" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/itheima/drawable/R$id.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/itheima/drawable/R$id.class" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/itheima/drawable/R$layout.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/itheima/drawable/R$layout.class" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/itheima/drawable/R$menu.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/itheima/drawable/R$menu.class" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/itheima/drawable/R$string.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/itheima/drawable/R$string.class" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/itheima/drawable/R$style.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/itheima/drawable/R$style.class" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/itheima/drawable/SecondeActivity.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/itheima/drawable/SecondeActivity.class" />
+      <change beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/itheima/drawable/SecondeActivity.class" afterPath="" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merger.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/merger.xml" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/dex-renamer-state.txt" />
@@ -41,16 +44,14 @@
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/manifests/full/debug/AndroidManifest.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/manifests/full/debug/AndroidManifest.xml" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/debug_3a59ac00e611d59114f96fe69417c2262e4ac988.jar" afterPath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/debug/debug_3a59ac00e611d59114f96fe69417c2262e4ac988.jar" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout/activity_main.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout/activity_main.xml" />
-      <change beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout/activity_second.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout/activity_second.xml" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/res/resources-debug.ap_" afterPath="$PROJECT_DIR$/app/build/intermediates/res/resources-debug.ap_" />
       <change beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes.dex" />
       <change beforePath="$PROJECT_DIR$/app/build/outputs/apk/app-debug.apk" afterPath="$PROJECT_DIR$/app/build/outputs/apk/app-debug.apk" />
       <change beforePath="$PROJECT_DIR$/app/build/outputs/logs/manifest-merger-debug-report.txt" afterPath="$PROJECT_DIR$/app/build/outputs/logs/manifest-merger-debug-report.txt" />
       <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/itheima/drawable/MainActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/itheima/drawable/MainActivity.java" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/itheima/drawable/SecondeActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/itheima/drawable/SecondeActivity.java" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/itheima/drawable/SecondeActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/itheima/drawable/GetImgActivity.java" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_second.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_second.xml" />
     </list>
     <ignored path="animationDrawable.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -81,55 +82,30 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="MainActivity.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/itheima/drawable/MainActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="196">
-              <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#636#821#0" expanded="true" />
-                <element signature="e#820#821#0" expanded="true" />
-                <element signature="e#849#1128#0" expanded="true" />
-                <element signature="e#1127#1128#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SecondeActivity.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/itheima/drawable/SecondeActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="50" column="22" lean-forward="false" selection-start-line="50" selection-start-column="22" selection-end-line="50" selection-end-column="22" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="activity_second.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_second.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="18" column="34" lean-forward="false" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="34" />
-              <folding />
-            </state>
-          </provider>
-          <provider editor-type-id="android-designer2">
-            <state />
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="AndroidManifest.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+          <provider editor-type-id="android-manifest">
+            <state />
+          </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="386">
-              <caret line="31" column="19" lean-forward="true" selection-start-line="31" selection-start-column="19" selection-end-line="31" selection-end-column="19" />
+            <state relative-caret-position="175">
+              <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
               <folding />
             </state>
           </provider>
-          <provider editor-type-id="android-manifest">
-            <state />
+        </entry>
+      </file>
+      <file leaf-file-name="GetImgsActivity.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/itheima/drawable/GetImgsActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="200">
+              <caret line="26" column="6" lean-forward="false" selection-start-line="26" selection-start-column="6" selection-end-line="26" selection-end-column="6" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#621#809#0" expanded="true" />
+                <element signature="e#808#809#0" expanded="true" />
+              </folding>
+            </state>
           </provider>
         </entry>
       </file>
@@ -139,6 +115,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="layoutResourceFile_vertical" />
       </list>
     </option>
   </component>
@@ -1849,18 +1826,23 @@
       <list>
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_dialog.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/itheima/drawable/DialogActivity.java" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/itheima/drawable/MainActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_second.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/itheima/drawable/SecondeActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_third.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/itheima/drawable/ThirdActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/itheima/drawable/MainActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_get_img.xml" />
         <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/itheima/drawable/GetImgsActivity.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="347" />
-    <option name="width" value="1534" />
-    <option name="height" value="1040" />
+    <option name="x" value="50" />
+    <option name="y" value="11" />
+    <option name="width" value="1773" />
+    <option name="height" value="1082" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -1878,8 +1860,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="AndroidView">
         <subPane>
           <expand>
@@ -1891,65 +1874,12 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="animationDrawable" type="b2602c69:ProjectViewProjectNode" />
               <item name="animationDrawable" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="animationDrawable" type="b2602c69:ProjectViewProjectNode" />
-              <item name="animationDrawable" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="animationDrawable" type="b2602c69:ProjectViewProjectNode" />
-              <item name="animationDrawable" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="animationDrawable" type="b2602c69:ProjectViewProjectNode" />
-              <item name="animationDrawable" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="animationDrawable" type="b2602c69:ProjectViewProjectNode" />
-              <item name="animationDrawable" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="animationDrawable" type="b2602c69:ProjectViewProjectNode" />
-              <item name="animationDrawable" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="drawable" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="animationDrawable" type="b2602c69:ProjectViewProjectNode" />
-              <item name="animationDrawable" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="res" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="animationDrawable" type="b2602c69:ProjectViewProjectNode" />
-              <item name="animationDrawable" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="app" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="res" type="462c0819:PsiDirectoryNode" />
-              <item name="layout" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="animationDrawable" type="b2602c69:ProjectViewProjectNode" />
@@ -1963,7 +1893,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="E:/" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.completion" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="UI_DESIGNER_EDITOR_MODE.NlPaletteManager-NlPreviewForm.SHOW" value="false" />
     <property name="device.picker.selection" value="KVXBB17720511351" />
     <property name="show.do.not.ask.upgrade.gradle.plugin" value="2.2.0" />
@@ -2373,26 +2303,25 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="347" y="0" width="1534" height="1040" extended-state="0" />
+    <frame x="50" y="11" width="1773" height="1082" extended-state="0" />
     <layout>
-      <window_info id="Android Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298731" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Android Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29451287" sideWeight="0.3522572" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3194925" sideWeight="0.5070922" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29451287" sideWeight="0.6477428" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24452133" sideWeight="0.49624464" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5176991" sideWeight="0.49517167" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Logcat" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.55934197" sideWeight="0.4929078" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298731" sideWeight="0.49570817" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29181084" sideWeight="0.42703864" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Logcat" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.37443945" sideWeight="0.48658797" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22298221" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3298731" sideWeight="0.4967811" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28336272" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33910036" sideWeight="0.4967811" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="WIFI ADB ULTIMATE" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -2410,7 +2339,9 @@
       <window_info id="Android Model" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.62780267" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32922733" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -2429,28 +2360,137 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
+    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="8" column="33" lean-forward="false" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
+        <state relative-caret-position="175">
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
           <folding />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/itheima/drawable/GetImgsActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="26" column="6" lean-forward="false" selection-start-line="26" selection-start-column="6" selection-end-line="26" selection-end-column="6" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#621#809#0" expanded="true" />
+            <element signature="e#808#809#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/itheima/drawable/GetImgsActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="10" column="32" lean-forward="false" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#621#809#0" expanded="true" />
+            <element signature="e#808#809#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_get_img.xml">
       <provider editor-type-id="android-designer2">
         <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="16" column="33" lean-forward="false" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/animationDrawable.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_get_img.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="16" column="33" lean-forward="false" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/itheima/drawable/GetImgsActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="10" column="32" lean-forward="false" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#621#809#0" expanded="true" />
+            <element signature="e#808#809#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/itheima/drawable/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/itheima/drawable/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/itheima/drawable/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/itheima/drawable/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="8" column="33" lean-forward="false" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/itheima/drawable/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="350">
           <caret line="21" column="30" lean-forward="false" selection-start-line="21" selection-start-column="30" selection-end-line="21" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#636#821#0" expanded="true" />
-            <element signature="e#820#821#0" expanded="true" />
-            <element signature="e#849#1128#0" expanded="true" />
-            <element signature="e#1127#1128#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2458,106 +2498,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="175">
           <caret line="23" column="34" lean-forward="false" selection-start-line="23" selection-start-column="34" selection-end-line="23" selection-end-column="34" />
-          <folding>
-            <marker date="1456665364095" expanded="false" signature="0:104" ph="/.../" />
-            <marker date="1456665364095" expanded="false" signature="138:668" ph="..." />
-            <marker date="1456665364095" expanded="true" signature="758:863" ph="{...}" />
-            <marker date="1456665364095" expanded="true" signature="923:1028" ph="{...}" />
-            <marker date="1456665364095" expanded="true" signature="1102:1207" ph="{...}" />
-            <marker date="1456665364095" expanded="false" signature="1258:1269" ph=" { " />
-            <marker date="1456665364095" expanded="false" signature="1305:1311" ph=" }" />
-            <marker date="1456665364095" expanded="false" signature="1358:1369" ph=" { " />
-            <marker date="1456665364095" expanded="false" signature="1405:1411" ph=" }" />
-            <marker date="1456665364095" expanded="false" signature="1460:1471" ph=" { " />
-            <marker date="1456665364095" expanded="false" signature="1507:1513" ph=" }" />
-            <marker date="1456665364095" expanded="false" signature="1559:1570" ph=" { " />
-            <marker date="1456665364095" expanded="false" signature="1606:1612" ph=" }" />
-            <marker date="1456665364095" expanded="true" signature="1685:1737" ph="{...}" />
-            <marker date="1456665364095" expanded="false" signature="1779:1790" ph=" { " />
-            <marker date="1456665364095" expanded="false" signature="1826:1832" ph=" }" />
-            <marker date="1456665364095" expanded="true" signature="1896:1948" ph="{...}" />
-            <marker date="1456665364095" expanded="false" signature="1978:1989" ph=" { " />
-            <marker date="1456665364095" expanded="false" signature="2025:2031" ph=" }" />
-            <marker date="1456665364095" expanded="false" signature="2074:2085" ph=" { " />
-            <marker date="1456665364095" expanded="false" signature="2121:2127" ph=" }" />
-            <marker date="1456665364095" expanded="false" signature="2158:2169" ph=" { " />
-            <marker date="1456665364095" expanded="false" signature="2205:2211" ph=" }" />
-            <marker date="1456665364095" expanded="false" signature="2256:2267" ph=" { " />
-            <marker date="1456665364095" expanded="false" signature="2303:2309" ph=" }" />
-            <marker date="1456665364095" expanded="false" signature="2344:2355" ph=" { " />
-            <marker date="1456665364095" expanded="false" signature="2391:2397" ph=" }" />
-            <marker date="1456665364095" expanded="false" signature="2442:2453" ph=" { " />
-            <marker date="1456665364095" expanded="false" signature="2489:2495" ph=" }" />
-            <marker date="1456665364095" expanded="false" signature="2533:2544" ph=" { " />
-            <marker date="1456665364095" expanded="false" signature="2580:2586" ph=" }" />
-            <marker date="1456665364095" expanded="false" signature="2639:2650" ph=" { " />
-            <marker date="1456665364095" expanded="false" signature="2686:2692" ph=" }" />
-            <marker date="1456665364095" expanded="false" signature="2735:2746" ph=" { " />
-            <marker date="1456665364095" expanded="false" signature="2782:2788" ph=" }" />
-            <marker date="1456665364095" expanded="false" signature="2847:2858" ph=" { " />
-            <marker date="1456665364095" expanded="false" signature="2894:2900" ph=" }" />
-            <marker date="1456665364095" expanded="false" signature="2947:2958" ph=" { " />
-            <marker date="1456665364095" expanded="false" signature="2994:3000" ph=" }" />
-            <marker date="1456665364095" expanded="false" signature="3042:3053" ph=" { " />
-            <marker date="1456665364095" expanded="false" signature="3089:3095" ph=" }" />
-            <marker date="1456665364095" expanded="false" signature="3156:3167" ph=" { " />
-            <marker date="1456665364095" expanded="false" signature="3203:3209" ph=" }" />
-            <marker date="1456665364095" expanded="false" signature="3256:3267" ph=" { " />
-            <marker date="1456665364095" expanded="false" signature="3303:3309" ph=" }" />
-            <marker date="1456665364095" expanded="false" signature="3345:3356" ph=" { " />
-            <marker date="1456665364095" expanded="false" signature="3392:3398" ph=" }" />
-            <marker date="1456665364095" expanded="false" signature="3445:3456" ph=" { " />
-            <marker date="1456665364095" expanded="false" signature="3492:3498" ph=" }" />
-            <marker date="1456665364095" expanded="false" signature="3537:3548" ph=" { " />
-            <marker date="1456665364095" expanded="false" signature="3584:3590" ph=" }" />
-            <marker date="1456665364095" expanded="false" signature="3647:3658" ph=" { " />
-            <marker date="1456665364095" expanded="false" signature="3694:3700" ph=" }" />
-            <marker date="1456665364095" expanded="false" signature="3756:3767" ph=" { " />
-            <marker date="1456665364095" expanded="false" signature="3803:3809" ph=" }" />
-            <marker date="1456665364095" expanded="true" signature="3885:3937" ph="{...}" />
-            <marker date="1456665364095" expanded="false" signature="3997:4008" ph=" { " />
-            <marker date="1456665364095" expanded="false" signature="4044:4050" ph=" }" />
-            <marker date="1456665364095" expanded="false" signature="4093:4104" ph=" { " />
-            <marker date="1456665364095" expanded="false" signature="4140:4146" ph=" }" />
-            <marker date="1456665364095" expanded="false" signature="4188:4199" ph=" { " />
-            <marker date="1456665364095" expanded="false" signature="4235:4241" ph=" }" />
-            <marker date="1456665364095" expanded="true" signature="4247:4299" ph="@{...}" />
-            <marker date="1456665364095" expanded="false" signature="4328:4339" ph=" { " />
-            <marker date="1456665364095" expanded="false" signature="4375:4381" ph=" }" />
-            <marker date="1456665364095" expanded="false" signature="4424:4435" ph=" { " />
-            <marker date="1456665364095" expanded="false" signature="4471:4477" ph=" }" />
-            <marker date="1456665364095" expanded="false" signature="4534:4545" ph=" { " />
-            <marker date="1456665364095" expanded="false" signature="4581:4587" ph=" }" />
-            <marker date="1456665364095" expanded="false" signature="4632:4643" ph=" { " />
-            <marker date="1456665364095" expanded="false" signature="4679:4685" ph=" }" />
-            <marker date="1456665364095" expanded="false" signature="4745:4756" ph=" { " />
-            <marker date="1456665364095" expanded="false" signature="4792:4798" ph=" }" />
-            <marker date="1456665364095" expanded="false" signature="4847:4858" ph=" { " />
-            <marker date="1456665364095" expanded="false" signature="4894:4900" ph=" }" />
-            <marker date="1456665364095" expanded="false" signature="4942:4953" ph=" { " />
-            <marker date="1456665364095" expanded="false" signature="4989:4995" ph=" }" />
-            <marker date="1456665364095" expanded="false" signature="5036:5047" ph=" { " />
-            <marker date="1456665364095" expanded="false" signature="5083:5089" ph=" }" />
-            <marker date="1456665364095" expanded="false" signature="5137:5148" ph=" { " />
-            <marker date="1456665364095" expanded="false" signature="5184:5190" ph=" }" />
-            <marker date="1456665364095" expanded="false" signature="5222:5233" ph=" { " />
-            <marker date="1456665364095" expanded="false" signature="5269:5275" ph=" }" />
-            <marker date="1456665364095" expanded="false" signature="5317:5328" ph=" { " />
-            <marker date="1456665364095" expanded="false" signature="5364:5370" ph=" }" />
-            <marker date="1456665364095" expanded="true" signature="5376:5394" ph="/**...*/" />
-            <marker date="1456665364095" expanded="false" signature="5446:5457" ph=" { " />
-            <marker date="1456665364095" expanded="false" signature="5493:5499" ph=" }" />
-            <marker date="1456665364095" expanded="false" signature="5546:5557" ph=" { " />
-            <marker date="1456665364095" expanded="false" signature="5593:5599" ph=" }" />
-            <marker date="1456665364095" expanded="false" signature="5640:5651" ph=" { " />
-            <marker date="1456665364095" expanded="false" signature="5687:5693" ph=" }" />
-            <marker date="1456665364095" expanded="false" signature="5736:5747" ph=" { " />
-            <marker date="1456665364095" expanded="false" signature="5783:5789" ph=" }" />
-            <marker date="1456665364095" expanded="true" signature="5864:5916" ph="{...}" />
-            <marker date="1456665364095" expanded="true" signature="5996:6048" ph="{...}" />
-            <marker date="1456665364095" expanded="true" signature="6083:6279" ph="{...}" />
-            <marker date="1456665364095" expanded="true" signature="6262:6273" ph="{}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2573,7 +2513,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
           <caret line="17" column="12" lean-forward="false" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2581,7 +2520,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2589,118 +2527,17 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="175">
           <caret line="23" column="34" lean-forward="false" selection-start-line="23" selection-start-column="34" selection-end-line="23" selection-end-column="34" />
-          <folding>
-            <marker date="1456665364095" expanded="false" signature="0:104" ph="/.../" />
-            <marker date="1456665364095" expanded="false" signature="138:668" ph="..." />
-            <marker date="1456665364095" expanded="true" signature="758:863" ph="{...}" />
-            <marker date="1456665364095" expanded="true" signature="923:1028" ph="{...}" />
-            <marker date="1456665364095" expanded="true" signature="1102:1207" ph="{...}" />
-            <marker date="1456665364095" expanded="false" signature="1258:1269" ph=" { " />
-            <marker date="1456665364095" expanded="false" signature="1305:1311" ph=" }" />
-            <marker date="1456665364095" expanded="false" signature="1358:1369" ph=" { " />
-            <marker date="1456665364095" expanded="false" signature="1405:1411" ph=" }" />
-            <marker date="1456665364095" expanded="false" signature="1460:1471" ph=" { " />
-            <marker date="1456665364095" expanded="false" signature="1507:1513" ph=" }" />
-            <marker date="1456665364095" expanded="false" signature="1559:1570" ph=" { " />
-            <marker date="1456665364095" expanded="false" signature="1606:1612" ph=" }" />
-            <marker date="1456665364095" expanded="true" signature="1685:1737" ph="{...}" />
-            <marker date="1456665364095" expanded="false" signature="1779:1790" ph=" { " />
-            <marker date="1456665364095" expanded="false" signature="1826:1832" ph=" }" />
-            <marker date="1456665364095" expanded="true" signature="1896:1948" ph="{...}" />
-            <marker date="1456665364095" expanded="false" signature="1978:1989" ph=" { " />
-            <marker date="1456665364095" expanded="false" signature="2025:2031" ph=" }" />
-            <marker date="1456665364095" expanded="false" signature="2074:2085" ph=" { " />
-            <marker date="1456665364095" expanded="false" signature="2121:2127" ph=" }" />
-            <marker date="1456665364095" expanded="false" signature="2158:2169" ph=" { " />
-            <marker date="1456665364095" expanded="false" signature="2205:2211" ph=" }" />
-            <marker date="1456665364095" expanded="false" signature="2256:2267" ph=" { " />
-            <marker date="1456665364095" expanded="false" signature="2303:2309" ph=" }" />
-            <marker date="1456665364095" expanded="false" signature="2344:2355" ph=" { " />
-            <marker date="1456665364095" expanded="false" signature="2391:2397" ph=" }" />
-            <marker date="1456665364095" expanded="false" signature="2442:2453" ph=" { " />
-            <marker date="1456665364095" expanded="false" signature="2489:2495" ph=" }" />
-            <marker date="1456665364095" expanded="false" signature="2533:2544" ph=" { " />
-            <marker date="1456665364095" expanded="false" signature="2580:2586" ph=" }" />
-            <marker date="1456665364095" expanded="false" signature="2639:2650" ph=" { " />
-            <marker date="1456665364095" expanded="false" signature="2686:2692" ph=" }" />
-            <marker date="1456665364095" expanded="false" signature="2735:2746" ph=" { " />
-            <marker date="1456665364095" expanded="false" signature="2782:2788" ph=" }" />
-            <marker date="1456665364095" expanded="false" signature="2847:2858" ph=" { " />
-            <marker date="1456665364095" expanded="false" signature="2894:2900" ph=" }" />
-            <marker date="1456665364095" expanded="false" signature="2947:2958" ph=" { " />
-            <marker date="1456665364095" expanded="false" signature="2994:3000" ph=" }" />
-            <marker date="1456665364095" expanded="false" signature="3042:3053" ph=" { " />
-            <marker date="1456665364095" expanded="false" signature="3089:3095" ph=" }" />
-            <marker date="1456665364095" expanded="false" signature="3156:3167" ph=" { " />
-            <marker date="1456665364095" expanded="false" signature="3203:3209" ph=" }" />
-            <marker date="1456665364095" expanded="false" signature="3256:3267" ph=" { " />
-            <marker date="1456665364095" expanded="false" signature="3303:3309" ph=" }" />
-            <marker date="1456665364095" expanded="false" signature="3345:3356" ph=" { " />
-            <marker date="1456665364095" expanded="false" signature="3392:3398" ph=" }" />
-            <marker date="1456665364095" expanded="false" signature="3445:3456" ph=" { " />
-            <marker date="1456665364095" expanded="false" signature="3492:3498" ph=" }" />
-            <marker date="1456665364095" expanded="false" signature="3537:3548" ph=" { " />
-            <marker date="1456665364095" expanded="false" signature="3584:3590" ph=" }" />
-            <marker date="1456665364095" expanded="false" signature="3647:3658" ph=" { " />
-            <marker date="1456665364095" expanded="false" signature="3694:3700" ph=" }" />
-            <marker date="1456665364095" expanded="false" signature="3756:3767" ph=" { " />
-            <marker date="1456665364095" expanded="false" signature="3803:3809" ph=" }" />
-            <marker date="1456665364095" expanded="true" signature="3885:3937" ph="{...}" />
-            <marker date="1456665364095" expanded="false" signature="3997:4008" ph=" { " />
-            <marker date="1456665364095" expanded="false" signature="4044:4050" ph=" }" />
-            <marker date="1456665364095" expanded="false" signature="4093:4104" ph=" { " />
-            <marker date="1456665364095" expanded="false" signature="4140:4146" ph=" }" />
-            <marker date="1456665364095" expanded="false" signature="4188:4199" ph=" { " />
-            <marker date="1456665364095" expanded="false" signature="4235:4241" ph=" }" />
-            <marker date="1456665364095" expanded="true" signature="4247:4299" ph="@{...}" />
-            <marker date="1456665364095" expanded="false" signature="4328:4339" ph=" { " />
-            <marker date="1456665364095" expanded="false" signature="4375:4381" ph=" }" />
-            <marker date="1456665364095" expanded="false" signature="4424:4435" ph=" { " />
-            <marker date="1456665364095" expanded="false" signature="4471:4477" ph=" }" />
-            <marker date="1456665364095" expanded="false" signature="4534:4545" ph=" { " />
-            <marker date="1456665364095" expanded="false" signature="4581:4587" ph=" }" />
-            <marker date="1456665364095" expanded="false" signature="4632:4643" ph=" { " />
-            <marker date="1456665364095" expanded="false" signature="4679:4685" ph=" }" />
-            <marker date="1456665364095" expanded="false" signature="4745:4756" ph=" { " />
-            <marker date="1456665364095" expanded="false" signature="4792:4798" ph=" }" />
-            <marker date="1456665364095" expanded="false" signature="4847:4858" ph=" { " />
-            <marker date="1456665364095" expanded="false" signature="4894:4900" ph=" }" />
-            <marker date="1456665364095" expanded="false" signature="4942:4953" ph=" { " />
-            <marker date="1456665364095" expanded="false" signature="4989:4995" ph=" }" />
-            <marker date="1456665364095" expanded="false" signature="5036:5047" ph=" { " />
-            <marker date="1456665364095" expanded="false" signature="5083:5089" ph=" }" />
-            <marker date="1456665364095" expanded="false" signature="5137:5148" ph=" { " />
-            <marker date="1456665364095" expanded="false" signature="5184:5190" ph=" }" />
-            <marker date="1456665364095" expanded="false" signature="5222:5233" ph=" { " />
-            <marker date="1456665364095" expanded="false" signature="5269:5275" ph=" }" />
-            <marker date="1456665364095" expanded="false" signature="5317:5328" ph=" { " />
-            <marker date="1456665364095" expanded="false" signature="5364:5370" ph=" }" />
-            <marker date="1456665364095" expanded="true" signature="5376:5394" ph="/**...*/" />
-            <marker date="1456665364095" expanded="false" signature="5446:5457" ph=" { " />
-            <marker date="1456665364095" expanded="false" signature="5493:5499" ph=" }" />
-            <marker date="1456665364095" expanded="false" signature="5546:5557" ph=" { " />
-            <marker date="1456665364095" expanded="false" signature="5593:5599" ph=" }" />
-            <marker date="1456665364095" expanded="false" signature="5640:5651" ph=" { " />
-            <marker date="1456665364095" expanded="false" signature="5687:5693" ph=" }" />
-            <marker date="1456665364095" expanded="false" signature="5736:5747" ph=" { " />
-            <marker date="1456665364095" expanded="false" signature="5783:5789" ph=" }" />
-            <marker date="1456665364095" expanded="true" signature="5864:5916" ph="{...}" />
-            <marker date="1456665364095" expanded="true" signature="5996:6048" ph="{...}" />
-            <marker date="1456665364095" expanded="true" signature="6083:6279" ph="{...}" />
-            <marker date="1456665364095" expanded="true" signature="6262:6273" ph="{}" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
           <caret line="8" column="33" lean-forward="false" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
-          <folding />
         </state>
-      </provider>
-      <provider editor-type-id="android-designer2">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
@@ -2715,7 +2552,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
           <caret line="17" column="12" lean-forward="false" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2723,7 +2559,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2731,13 +2566,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="50">
           <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#636#821#0" expanded="true" />
-            <element signature="e#820#821#0" expanded="true" />
-            <element signature="e#849#1128#0" expanded="true" />
-            <element signature="e#1127#1128#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2745,106 +2573,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="175">
           <caret line="23" column="34" lean-forward="false" selection-start-line="23" selection-start-column="34" selection-end-line="23" selection-end-column="34" />
-          <folding>
-            <marker date="1456665364095" expanded="false" signature="0:104" ph="/.../" />
-            <marker date="1456665364095" expanded="false" signature="138:668" ph="..." />
-            <marker date="1456665364095" expanded="true" signature="758:863" ph="{...}" />
-            <marker date="1456665364095" expanded="true" signature="923:1028" ph="{...}" />
-            <marker date="1456665364095" expanded="true" signature="1102:1207" ph="{...}" />
-            <marker date="1456665364095" expanded="false" signature="1258:1269" ph=" { " />
-            <marker date="1456665364095" expanded="false" signature="1305:1311" ph=" }" />
-            <marker date="1456665364095" expanded="false" signature="1358:1369" ph=" { " />
-            <marker date="1456665364095" expanded="false" signature="1405:1411" ph=" }" />
-            <marker date="1456665364095" expanded="false" signature="1460:1471" ph=" { " />
-            <marker date="1456665364095" expanded="false" signature="1507:1513" ph=" }" />
-            <marker date="1456665364095" expanded="false" signature="1559:1570" ph=" { " />
-            <marker date="1456665364095" expanded="false" signature="1606:1612" ph=" }" />
-            <marker date="1456665364095" expanded="true" signature="1685:1737" ph="{...}" />
-            <marker date="1456665364095" expanded="false" signature="1779:1790" ph=" { " />
-            <marker date="1456665364095" expanded="false" signature="1826:1832" ph=" }" />
-            <marker date="1456665364095" expanded="true" signature="1896:1948" ph="{...}" />
-            <marker date="1456665364095" expanded="false" signature="1978:1989" ph=" { " />
-            <marker date="1456665364095" expanded="false" signature="2025:2031" ph=" }" />
-            <marker date="1456665364095" expanded="false" signature="2074:2085" ph=" { " />
-            <marker date="1456665364095" expanded="false" signature="2121:2127" ph=" }" />
-            <marker date="1456665364095" expanded="false" signature="2158:2169" ph=" { " />
-            <marker date="1456665364095" expanded="false" signature="2205:2211" ph=" }" />
-            <marker date="1456665364095" expanded="false" signature="2256:2267" ph=" { " />
-            <marker date="1456665364095" expanded="false" signature="2303:2309" ph=" }" />
-            <marker date="1456665364095" expanded="false" signature="2344:2355" ph=" { " />
-            <marker date="1456665364095" expanded="false" signature="2391:2397" ph=" }" />
-            <marker date="1456665364095" expanded="false" signature="2442:2453" ph=" { " />
-            <marker date="1456665364095" expanded="false" signature="2489:2495" ph=" }" />
-            <marker date="1456665364095" expanded="false" signature="2533:2544" ph=" { " />
-            <marker date="1456665364095" expanded="false" signature="2580:2586" ph=" }" />
-            <marker date="1456665364095" expanded="false" signature="2639:2650" ph=" { " />
-            <marker date="1456665364095" expanded="false" signature="2686:2692" ph=" }" />
-            <marker date="1456665364095" expanded="false" signature="2735:2746" ph=" { " />
-            <marker date="1456665364095" expanded="false" signature="2782:2788" ph=" }" />
-            <marker date="1456665364095" expanded="false" signature="2847:2858" ph=" { " />
-            <marker date="1456665364095" expanded="false" signature="2894:2900" ph=" }" />
-            <marker date="1456665364095" expanded="false" signature="2947:2958" ph=" { " />
-            <marker date="1456665364095" expanded="false" signature="2994:3000" ph=" }" />
-            <marker date="1456665364095" expanded="false" signature="3042:3053" ph=" { " />
-            <marker date="1456665364095" expanded="false" signature="3089:3095" ph=" }" />
-            <marker date="1456665364095" expanded="false" signature="3156:3167" ph=" { " />
-            <marker date="1456665364095" expanded="false" signature="3203:3209" ph=" }" />
-            <marker date="1456665364095" expanded="false" signature="3256:3267" ph=" { " />
-            <marker date="1456665364095" expanded="false" signature="3303:3309" ph=" }" />
-            <marker date="1456665364095" expanded="false" signature="3345:3356" ph=" { " />
-            <marker date="1456665364095" expanded="false" signature="3392:3398" ph=" }" />
-            <marker date="1456665364095" expanded="false" signature="3445:3456" ph=" { " />
-            <marker date="1456665364095" expanded="false" signature="3492:3498" ph=" }" />
-            <marker date="1456665364095" expanded="false" signature="3537:3548" ph=" { " />
-            <marker date="1456665364095" expanded="false" signature="3584:3590" ph=" }" />
-            <marker date="1456665364095" expanded="false" signature="3647:3658" ph=" { " />
-            <marker date="1456665364095" expanded="false" signature="3694:3700" ph=" }" />
-            <marker date="1456665364095" expanded="false" signature="3756:3767" ph=" { " />
-            <marker date="1456665364095" expanded="false" signature="3803:3809" ph=" }" />
-            <marker date="1456665364095" expanded="true" signature="3885:3937" ph="{...}" />
-            <marker date="1456665364095" expanded="false" signature="3997:4008" ph=" { " />
-            <marker date="1456665364095" expanded="false" signature="4044:4050" ph=" }" />
-            <marker date="1456665364095" expanded="false" signature="4093:4104" ph=" { " />
-            <marker date="1456665364095" expanded="false" signature="4140:4146" ph=" }" />
-            <marker date="1456665364095" expanded="false" signature="4188:4199" ph=" { " />
-            <marker date="1456665364095" expanded="false" signature="4235:4241" ph=" }" />
-            <marker date="1456665364095" expanded="true" signature="4247:4299" ph="@{...}" />
-            <marker date="1456665364095" expanded="false" signature="4328:4339" ph=" { " />
-            <marker date="1456665364095" expanded="false" signature="4375:4381" ph=" }" />
-            <marker date="1456665364095" expanded="false" signature="4424:4435" ph=" { " />
-            <marker date="1456665364095" expanded="false" signature="4471:4477" ph=" }" />
-            <marker date="1456665364095" expanded="false" signature="4534:4545" ph=" { " />
-            <marker date="1456665364095" expanded="false" signature="4581:4587" ph=" }" />
-            <marker date="1456665364095" expanded="false" signature="4632:4643" ph=" { " />
-            <marker date="1456665364095" expanded="false" signature="4679:4685" ph=" }" />
-            <marker date="1456665364095" expanded="false" signature="4745:4756" ph=" { " />
-            <marker date="1456665364095" expanded="false" signature="4792:4798" ph=" }" />
-            <marker date="1456665364095" expanded="false" signature="4847:4858" ph=" { " />
-            <marker date="1456665364095" expanded="false" signature="4894:4900" ph=" }" />
-            <marker date="1456665364095" expanded="false" signature="4942:4953" ph=" { " />
-            <marker date="1456665364095" expanded="false" signature="4989:4995" ph=" }" />
-            <marker date="1456665364095" expanded="false" signature="5036:5047" ph=" { " />
-            <marker date="1456665364095" expanded="false" signature="5083:5089" ph=" }" />
-            <marker date="1456665364095" expanded="false" signature="5137:5148" ph=" { " />
-            <marker date="1456665364095" expanded="false" signature="5184:5190" ph=" }" />
-            <marker date="1456665364095" expanded="false" signature="5222:5233" ph=" { " />
-            <marker date="1456665364095" expanded="false" signature="5269:5275" ph=" }" />
-            <marker date="1456665364095" expanded="false" signature="5317:5328" ph=" { " />
-            <marker date="1456665364095" expanded="false" signature="5364:5370" ph=" }" />
-            <marker date="1456665364095" expanded="true" signature="5376:5394" ph="/**...*/" />
-            <marker date="1456665364095" expanded="false" signature="5446:5457" ph=" { " />
-            <marker date="1456665364095" expanded="false" signature="5493:5499" ph=" }" />
-            <marker date="1456665364095" expanded="false" signature="5546:5557" ph=" { " />
-            <marker date="1456665364095" expanded="false" signature="5593:5599" ph=" }" />
-            <marker date="1456665364095" expanded="false" signature="5640:5651" ph=" { " />
-            <marker date="1456665364095" expanded="false" signature="5687:5693" ph=" }" />
-            <marker date="1456665364095" expanded="false" signature="5736:5747" ph=" { " />
-            <marker date="1456665364095" expanded="false" signature="5783:5789" ph=" }" />
-            <marker date="1456665364095" expanded="true" signature="5864:5916" ph="{...}" />
-            <marker date="1456665364095" expanded="true" signature="5996:6048" ph="{...}" />
-            <marker date="1456665364095" expanded="true" signature="6083:6279" ph="{...}" />
-            <marker date="1456665364095" expanded="true" signature="6262:6273" ph="{}" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2852,7 +2580,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
           <caret line="17" column="12" lean-forward="false" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2860,7 +2587,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2868,26 +2594,23 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
           <caret line="154" column="31" lean-forward="false" selection-start-line="154" selection-start-column="31" selection-end-line="154" selection-end-column="31" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_dialog.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
           <caret line="15" column="48" lean-forward="false" selection-start-line="15" selection-start-column="48" selection-end-line="15" selection-end-column="48" />
-          <folding />
         </state>
-      </provider>
-      <provider editor-type-id="android-designer2">
-        <state />
       </provider>
     </entry>
     <entry file="file://D:/android_sdk/platforms/android-18/data/res/values/themes.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="612" column="17" lean-forward="false" selection-start-line="612" selection-start-column="17" selection-end-line="612" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2895,63 +2618,97 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="207">
           <caret line="9" column="47" lean-forward="false" selection-start-line="9" selection-start-column="47" selection-end-line="9" selection-end-column="47" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_second.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="22" column="14" lean-forward="false" selection-start-line="22" selection-start-column="14" selection-end-line="22" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/itheima/drawable/ThirdActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="539">
+          <caret line="23" column="49" lean-forward="false" selection-start-line="23" selection-start-column="49" selection-end-line="23" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_third.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="12" column="33" lean-forward="false" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/itheima/drawable/GetImgActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="20" column="43" lean-forward="false" selection-start-line="20" selection-start-column="35" selection-end-line="20" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
       <provider editor-type-id="android-designer2">
         <state />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_second.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="18" column="34" lean-forward="false" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="386">
-          <caret line="31" column="19" lean-forward="true" selection-start-line="31" selection-start-column="19" selection-end-line="31" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="android-manifest">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/itheima/drawable/SecondeActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="50" column="22" lean-forward="false" selection-start-line="50" selection-start-column="22" selection-end-line="50" selection-end-column="22" />
-          <folding />
+        <state relative-caret-position="394">
+          <caret line="38" column="35" lean-forward="false" selection-start-line="38" selection-start-column="35" selection-end-line="38" selection-end-column="35" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/itheima/drawable/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+        <state relative-caret-position="400">
+          <caret line="19" column="70" lean-forward="false" selection-start-line="19" selection-start-column="70" selection-end-line="19" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/animationDrawable.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+      <provider editor-type-id="android-manifest">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_get_img.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="16" column="33" lean-forward="false" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/itheima/drawable/GetImgsActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="26" column="6" lean-forward="false" selection-start-line="26" selection-start-column="6" selection-end-line="26" selection-end-column="6" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#636#821#0" expanded="true" />
-            <element signature="e#820#821#0" expanded="true" />
-            <element signature="e#849#1128#0" expanded="true" />
-            <element signature="e#1127#1128#0" expanded="true" />
+            <element signature="e#621#809#0" expanded="true" />
+            <element signature="e#808#809#0" expanded="true" />
           </folding>
         </state>
       </provider>

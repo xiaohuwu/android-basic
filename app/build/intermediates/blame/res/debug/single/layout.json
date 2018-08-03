@@ -4,6 +4,14 @@
         "source": "F:\\spring_boot\\animationDrawable\\app\\src\\main\\res\\layout\\activity_second.xml"
     },
     {
+        "merged": "F:\\spring_boot\\animationDrawable\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_get_img.xml",
+        "source": "F:\\spring_boot\\animationDrawable\\app\\src\\main\\res\\layout\\activity_get_img.xml"
+    },
+    {
+        "merged": "F:\\spring_boot\\animationDrawable\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_third.xml",
+        "source": "F:\\spring_boot\\animationDrawable\\app\\src\\main\\res\\layout\\activity_third.xml"
+    },
+    {
         "merged": "F:\\spring_boot\\animationDrawable\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
         "source": "F:\\spring_boot\\animationDrawable\\app\\src\\main\\res\\layout\\activity_main.xml"
     },

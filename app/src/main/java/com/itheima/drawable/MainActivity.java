@@ -4,35 +4,29 @@ import android.os.Bundle;
 import android.app.Activity;
 import android.util.Log;
 import android.view.View;
-import android.webkit.WebView;
-import android.widget.ImageView;
 import android.widget.Toast;
 public class MainActivity extends Activity {
-
-	ImageView iv;
 	public static final String TAG="MainActivity";
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
-		
-		iv = (ImageView) findViewById(R.id.iv);
 		View viewById = findViewById(R.id.button_1);
-		viewById.setOnClickListener(new View.OnClickListener() {
+		View get_mig = findViewById(R.id.button_2);
+
+		get_mig.setOnClickListener(new View.OnClickListener() {
 			@Override
 			public void onClick(View view) {
-				Intent intent = new Intent(MainActivity.this,DialogActivity.class);
+				Intent intent = new Intent(MainActivity.this,GetImgsActivity.class);
 				startActivity(intent);
 			}
 		});
 
-		iv.setOnClickListener(new View.OnClickListener() {
+		viewById.setOnClickListener(new View.OnClickListener() {
 			@Override
 			public void onClick(View view) {
-				Intent intent = new Intent();
-				intent.setAction("com.itheima.drawable.ACTION_START");
-				intent.addCategory("com.itheima.drawable.MY_CATEGORY");
-				startActivityForResult(intent,200);
+				Intent intent = new Intent(MainActivity.this,GetImgActivity.class);
+				startActivity(intent);
 			}
 		});
 	}

@@ -7,9 +7,12 @@ import android.util.Log;
 import android.view.View;
 import android.widget.TextView;
 
-public class SecondeActivity extends Activity implements View.OnClickListener {
+/**
+ * Android 的启动模式
+ */
+public class GetImgActivity extends Activity implements View.OnClickListener {
 
-    public static final String TAG="SecondeActivity";
+    public static final String TAG="GetImgActivity";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -32,7 +35,7 @@ public class SecondeActivity extends Activity implements View.OnClickListener {
     @Override
     protected void onResume() {
         super.onResume();
-        Log.i("SecondeActivity","this is seconde activity");
+        Log.i("GetImgActivity","this is seconde activity");
     }
 
     @Override
@@ -46,7 +49,7 @@ public class SecondeActivity extends Activity implements View.OnClickListener {
                 this.finish();
                 break;
             case R.id.start:
-                intent = new Intent(SecondeActivity.this,SecondeActivity.class);
+                intent = new Intent(GetImgActivity.this,ThirdActivity.class);
                 startActivity(intent);
                 break;
         }
