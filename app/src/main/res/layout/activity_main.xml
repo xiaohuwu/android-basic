@@ -6,21 +6,21 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context=".MainActivity" >
+    tools:context=".activity.MainActivity" >
 
           <Button
               android:id="@+id/button_1"
               android:layout_width="wrap_content"
               android:layout_height="wrap_content"
               android:layout_centerInParent="true"
-              android:text="button 1"/>
+              android:text="文件存储"/>
     <Button
         android:layout_alignTop="@id/button_1"
         android:id="@+id/button_8"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_toLeftOf="@id/button_1"
-        android:text="button 8"/>
+        android:text="发送自定义广播"/>
 
     <Button
         android:id="@+id/button_9"
@@ -28,7 +28,7 @@
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
         android:layout_toRightOf="@id/button_1"
-        android:text="button 9"/>
+        android:text="发送动态广播"/>
 
           <Button
               android:id="@+id/button_2"

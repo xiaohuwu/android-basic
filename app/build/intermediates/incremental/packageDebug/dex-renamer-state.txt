@@ -1,4 +1,4 @@
-#Thu Aug 02 15:18:11 CST 2018
+#Fri Aug 03 18:08:32 CST 2018
 base.0=F\:\\spring_boot\\animationDrawable\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main
 renamed.0=classes.dex
 file.0=F\:\\spring_boot\\animationDrawable\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main\\classes.dex

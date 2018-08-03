@@ -3,12 +3,30 @@
 
     <item
         is-multidex="false"
-        jar="D:\android_sdk\extras\android\m2repository\com\android\support\support-v4\18.0.0\support-v4-18.0.0.jar"
+        jar="F:\spring_boot\animationDrawable\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.0.0\jars\libs\internal_impl-24.0.0.jar"
         jumboMode="false"
         optimize="true"
         revision="24.0.2"
-        sha1="44ec51e9d395a47aab135e5e1b556c0007442156">
-        <dex dex="F:\spring_boot\animationDrawable\app\build\intermediates\pre-dexed\debug\support-v4-18.0.0_a541d7227bb31fb0a9b0cdd4afb7ed77c046d756.jar" />
+        sha1="fcaf463e10e69c1923ccf1edeba3b4196d239e00">
+        <dex dex="F:\spring_boot\animationDrawable\app\build\intermediates\pre-dexed\debug\internal_impl-24.0.0_00c96c77dfd3d2956be8c4674562b0dc3e538cef.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\android_sdk\extras\android\m2repository\com\android\support\support-annotations\24.0.0\support-annotations-24.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="2943c74db6d4346ab8c6531adac91fa05c137c40">
+        <dex dex="F:\spring_boot\animationDrawable\app\build\intermediates\pre-dexed\debug\support-annotations-24.0.0_6eaa2f8795f96eb791b076b2d85789d1c03cb58d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="F:\spring_boot\animationDrawable\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.2"
+        sha1="2f7e6e2dad1bccaf68a8820820adc6c0d5b96d37">
+        <dex dex="F:\spring_boot\animationDrawable\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-24.0.0_5b907bd57005e59d1c9a1e1e494a67fcbf2ebac9.jar" />
     </item>
 
 </items>
